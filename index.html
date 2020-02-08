@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<title>Gift Card Shop</title>
+<style>
+    #sidebar-wrapper{
+        width: 200px;
+        height: 75vh;
+    }
+    #widget {
+	box-shadow: none;
+	border: 0px solid #eaeaea;
+     }
+     #widget:hover {
+	box-shadow:black;
+	border: 5px solid #eaeaea;
+     }
+     #imgbutton:hover {
+	box-shadow:blue;
+	border: 5px solid blue;
+     }
+
+</style>
+</head>
+<body background="cover.jpg">
+        <header class="bg-dark">
+            <img id="logo" class="rounded-circle" src="assets.jpg" alt="logo" height="50px" width="50px" style="margin-top: 20px; margin-left: 20px; position: absolute; opacity: 0.5;">
+            <h1 class="display-3 text-center my-4 text-light lead ">Gift Card</h1></header>
+      
+<nav class="navbar navbar-expand-md navbar-light bg-dark">
+<button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-between" id="nav">
+<ul class="navbar-nav">
+<li class="nav-item" >
+<a class="nav-link text-light font-weight-bold px-3" href="index.html">Home
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-light font-weight-bold px-3 " href="placeorder.html">Place Gift Card Order</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-light font-weight-bold px-3" href="table2.html">View Gift Card Order</a>
+</li>
+<li class="nav-item">
+<a class="nav-link text-light font-weight-bold px-3" href="contacts.html">Contact</a>
+</li>
+</ul>
+
+</div>
+</nav>
+   <div class="container-fluid">
+       <div class="row my-2">
+           <div class="col-2 bg-light border">
+            <div class="sidenav" >
+                <!-- <div class="list-group list-group-flush"> -->
+                  <a href="index.html" id="widget" class="list-group-item list-group-item-action bg-light btn-lg">Home</a>
+                  <a href="placeorder.html" id="widget" class="list-group-item list-group-item-action bg-light btn-lg">Place Order</a>
+                  <a href="table2.html" id="widget" class="list-group-item list-group-item-action bg-light btn-lg">View Orders</a>
+                  <a href="contacts.html"  id="widget" class="list-group-item list-group-item-action bg-light btn-lg">Contacts</a>
+                <!-- </div> -->
+                </div>        
+           </div> 
+           <div class="col bg-dark mx-2">
+               <div class="row text-white text-fine p-3">
+               
+                    <p class=""><h2>In this holiday season, show your love and care to your loved one's by sending gift card, 
+                        and let them be a part of your happiness</h2></p>
+            </div>
+            <div class="row">
+            <div class="container text-center">  
+                <img src="gift.png" class="img-fluid" style="width:70%; height: auto;"></div>
+            </div>
+            <div class="row">
+                <div class="container-fluid p-4 text-center">
+               <a href="placeorder.html" class="btn" ><img class="rounded" src="order.png" id="imgbutton"></a></div>
+                
+             </div>
+            <div class="row">
+
+            </div>
+           </div>
+
+       </div>
+   </div>
+      
+</div></div></div>
+
+</body>
+</html>
